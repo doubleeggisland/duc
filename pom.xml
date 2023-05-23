@@ -11,6 +11,10 @@
 
 	<description>Double Egg Island User Center</description>
 
+	<modules>
+		<module>duc-admin</module>
+	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -24,6 +28,24 @@
 			<dependency>
 				<groupId>com.ioiox.dei</groupId>
 				<artifactId>dei-core</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.ioiox.dei</groupId>
+				<artifactId>duc-beans</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.ioiox.dei</groupId>
+				<artifactId>duc-spring-beans</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.ioiox.dei</groupId>
+				<artifactId>duc-spring-boot-starter</artifactId>
 				<version>1.0.0-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
