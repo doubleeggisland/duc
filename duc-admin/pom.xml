@@ -13,6 +13,8 @@
   <packaging>pom</packaging>
   <modules>
     <module>duc-admin-beans</module>
+    <module>duc-admin-svc-api</module>
+    <module>duc-admin-svc-impl</module>
     <module>duc-admin-web</module>
   </modules>
 </project>
