@@ -17,5 +17,9 @@
       <groupId>com.ioiox.dei</groupId>
       <artifactId>duc-admin-svc-api</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.ioiox.dei</groupId>
+      <artifactId>dei-rest-api-clients-springboot-starter</artifactId>
+    </dependency>
   </dependencies>
 </project>

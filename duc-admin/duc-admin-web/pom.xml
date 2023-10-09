@@ -15,6 +15,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
     </dependency>
@@ -27,6 +32,11 @@
     <dependency>
       <groupId>com.ioiox.dei</groupId>
       <artifactId>duc-beans</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.ioiox.dei</groupId>
+      <artifactId>duc-admin-svc-impl</artifactId>
     </dependency>
 
     <dependency>
